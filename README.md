@@ -9,7 +9,10 @@ Journal: IOP Publishing, Year
 
 ## Contents
 - script1.m : description
-- script2.m : description
+- LTP_average.m (script) : aggregates ΔA (efficacy) measurements from multiple LTP experiments, computes population averages and variability, and plots the mean temporal evolution for blue and red electrodes
+- boxplots_Tr_Tb.m (script) : post-processing and aggregation of sigmoid fit results from single-electrode LTP experiments
+- AnalogDataExtr.m (function) : extracts the time vector, analogue signals (µV), and channel identifiers from an HDF5 recording file over a specified sample range
+
 
 ## Requirements
 - MATLAB R20xx
