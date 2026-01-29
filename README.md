@@ -14,6 +14,8 @@ Journal: IOP Publishing, Year
 - **AnalogDataExtr.m** (function) : extracts the time vector, analogue signals (µV), and channel identifiers from an HDF5 recording file over a specified sample range
 - **DetectSpikes_PTSD_best.m** (function) : detects spikes in filtered MEA signals using adaptive peak-to-peak thresholding
 - **AnalysisFile.m** (function) : performs band-pass filtering, spike detection, and stimulation onset extraction from HDF5 electrophysiological recording files
+- **fitSigmoidForSelectedChannels** (function) : performs sigmoid fitting of raw and smoothed spike-rate responses for selected MEA channels, returning fit parameters in physical units and goodness-of-fit metrics
+
 
 
 
