@@ -12,7 +12,7 @@ Journal: IOP Publishing, Year
 - analysis_LTP.m (script) : performs spike-based analysis of MEA HDF5 recordings from LTP protocols, computing PSTH-based efficacy changes, classifying electrodes into potentiated and non-potentiated groups, and saving results for group-level analysis
 - LTP_average.m (script) : aggregates ΔA (efficacy) measurements from multiple LTP experiments, computes population averages and variability, and plots the mean temporal evolution for blue and red electrodes
 - AnalogDataExtr.m (function) : extracts the time vector, analogue signals (µV), and channel identifiers from an HDF5 recording file over a specified sample range
-- DetectSpikes_PTSD_best.m (function) : detects spikes in filtered MEA signals using adaptive peak-to-peak thresholding
+- **DetectSpikes_PTSD_best.m** (function) : detects spikes in filtered MEA signals using adaptive peak-to-peak thresholding
 - AnalysisFile.m (function) : performs band-pass filtering, spike detection, and stimulation onset extraction from HDF5 electrophysiological recording files
 
 
