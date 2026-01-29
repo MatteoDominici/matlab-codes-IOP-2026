@@ -3,7 +3,7 @@
 
 This repository contains the MATLAB codes used in the paper:
 
-"A Frequency-Optimized Optogenetic Study of Network-Level Potentiation in Cortical Cultures on Microelectrode Arrays"  
+*"A Frequency-Optimized Optogenetic Study of Network-Level Potentiation in Cortical Cultures on Microelectrode Arrays"*  
 Authors: Matteo Dominici, Ilya Auslender, Clara Zaccaria, Yasaman Heydari, and Lorenzo Pavesi  
 Journal: IOP Publishing, Year
 
