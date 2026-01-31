@@ -1,6 +1,6 @@
 % =========================================================================
 % This script performs a post-processing and aggregation analysis of sigmoid
-% fit results obtained from single-electrode LTP experiments. Specifically:
+% fit results obtained for the test-stimulus experiments. Specifically:
 % 1) Loads multiple .mat files containing previously computed sigmoid-fit
 %    parameters (fitResults structures) for Tr and Tb response windows.
 % 2) Groups datasets by stimulation frequency and separates Tr and Tb data.
@@ -300,3 +300,4 @@ function plotBoxTrTb(yTr, gTr, yTb, gTb, nFreq, freqLabels, xShift, keepGroups, 
     saveas(fig, outFile);
     close(fig);
 end
+
