@@ -8,8 +8,11 @@ Authors: Matteo Dominici, Ilya Auslender, Clara Zaccaria, Yasaman Heydari, and L
 Journal: IOP Publishing, Year
 
 ## Contents
-- **boxplots_Tr_Tb.m** (script) : post-processing and aggregation of sigmoid fit results from single-electrode LTP experiments
-- **analysis_LTP.m** (script) : performs spike-based analysis of MEA HDF5 recordings from LTP protocols, computing PSTH-based efficacy changes, classifying electrodes into potentiated and non-potentiated groups, and saving results for group-level analysis
+- **test_stimulus_analysis.m** (script) : runs the full MEA analysis pipeline (spike detection, Tr/Tb spike-rate + 8×8 diagnostic maps, and sigmoid fitting of selected channels)
+                                          across multiple HDF5 files and saves the final fitResults structure
+- **boxplots_Tr_Tb.m** (script) : post-processing and aggregation of sigmoid fit results
+- **analysis_LTP.m** (script) : performs spike-based analysis of MEA HDF5 recordings from LTP protocols, computing PSTH-based efficacy changes, classifying electrodes into potentiated
+                                and non-potentiated groups, and saving results for group-level analysis
 - **LTP_average.m** (script) : aggregates ΔA (efficacy) measurements from multiple LTP experiments, computes population averages and variability, and plots the mean temporal evolution for blue and red electrodes
 - **AnalogDataExtr.m** (function) : extracts the time vector, analogue signals (µV), and channel identifiers from an HDF5 recording file over a specified sample range
 - **DetectSpikes_PTSD_best.m** (function) : detects spikes in filtered MEA signals using adaptive peak-to-peak thresholding
